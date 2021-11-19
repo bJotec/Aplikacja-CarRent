@@ -5,14 +5,20 @@ import pl.camp.it.carRent.model.Truck;
 
 public class GUI {
 
+    private static final GUI instance = new GUI();
 
+    private GUI() {
 
+    }
 
-   public static void showMenu() {
+    public static void showMenu() {
         System.out.println("1. Lista aut");
         System.out.println("2. Wypozycz auto");
         System.out.println("3. Wyjdz");
         System.out.println("4. Oddaj auto");
+    }
+    public static GUI getInstance(){
+        return instance;
     }
 
 /*    public void printCar(Car car) {

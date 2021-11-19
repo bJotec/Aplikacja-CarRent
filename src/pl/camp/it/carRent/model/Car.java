@@ -9,7 +9,7 @@ public class Car extends Vehicle{
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("MArka: ")
+        sb.append("Marka: ")
                 .append(this.getBrand())
                 .append(" Model: ")
                 .append((this.getModel()))

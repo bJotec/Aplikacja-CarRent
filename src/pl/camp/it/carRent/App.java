@@ -1,5 +1,7 @@
 package pl.camp.it.carRent;
 
+import pl.camp.it.carRent.authenticate.Authenticator;
+import pl.camp.it.carRent.model.User;
 import pl.camp.it.carRent.database.DataBase;
 import pl.camp.it.carRent.model.Bus;
 import pl.camp.it.carRent.model.Car;
@@ -7,6 +9,7 @@ import pl.camp.it.carRent.gui.GUI;
 import pl.camp.it.carRent.model.Truck;
 import pl.camp.it.carRent.model.Vehicle;
 
+import javax.naming.AuthenticationException;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,17 +17,40 @@ import java.io.InputStreamReader;
 public class App {
     public static void main(String[] args) throws IOException {
 
-        DataBase database = new DataBase();
+        DataBase database = DataBase.getInstace();
+        GUI gui = GUI.getInstance();
+        Authenticator authenticator = Authenticator.getInstance();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+
+        for (int i =0 ; i <3 ; i++) {
+
+            System.out.println("Login");
+            String login = reader.readLine();
+            System.out.println("Hasło");
+            String password = reader.readLine();
+
+            if (!authenticator.authenticate(login, password/*, database*/)) {
+                System.out.println("Nieprawidłowe dane");
+            }  else {
+             break;
+            }
+
+            if (i==2) {
+                return;
+            }
+        }
+
 
 
         while (true) {
-            GUI.showMenu();
+            gui.showMenu();
 
             // Enter data using BufferReader
-            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
             String choose = reader.readLine();
 
-
+            // int i = Integer.parseInt(choose);
 
             switch (choose) {
                 case "1":
