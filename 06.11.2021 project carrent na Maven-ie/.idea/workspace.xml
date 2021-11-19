@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08a2456e-2438-4186-bf33-9fd428bfac91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/pl/camp/it/carRent/authenticate/Authenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/pl/camp/it/carRent/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarRent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CarRent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/CarRent/pl/camp/it/carRent/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/CarRent/pl/camp/it/carRent/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/CarRent/pl/camp/it/carRent/database/DataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/CarRent/pl/camp/it/carRent/database/DataBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/CarRent/pl/camp/it/carRent/gui/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/CarRent/pl/camp/it/carRent/gui/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/CarRent/pl/camp/it/carRent/model/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/CarRent/pl/camp/it/carRent/model/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/pl/camp/it/carRent/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pl/camp/it/carRent/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/pl/camp/it/carRent/database/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pl/camp/it/carRent/database/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/pl/camp/it/carRent/gui/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pl/camp/it/carRent/gui/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/pl/camp/it/carRent/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pl/camp/it/carRent/model/Car.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="20XnaSS3lbXy3L5VUhUCCMKuSNA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08a2456e-2438-4186-bf33-9fd428bfac91" name="Changes" comment="" />
+      <created>1636199862983</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636199862983</updated>
+    </task>
+    <servers />
+  </component>
+</project>
